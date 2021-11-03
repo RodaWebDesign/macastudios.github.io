@@ -1,0 +1,290 @@
+/*----- BASE DE FONDO DE PAGINA -----*/
+
+body {
+  background-color: var(--azul);
+}
+
+.decoration {
+  /*border: 2px solid red;*/
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+}
+
+.container1 {
+  /*border: 1px solid rgb(184, 75, 48);*/
+  height: 850px;
+  position: relative;
+}
+
+.container2 {
+  border: 1px solid burlywood;
+  height: 800px;
+  position: relative;
+}
+
+.container3 {
+  border: 1px solid rgb(64, 96, 193);
+  height: 800px;
+  position: relative;
+}
+
+.container4 {
+  /*border: 1px solid rgb(238, 97, 219);*/
+  height: 1500px;
+  position: relative;
+}
+
+.fondo1 {
+  /*border: 2px solid red;*/
+  width: 100%;
+  height: 900px;
+  top: 0;
+  display: none;
+}
+
+.fondovideo {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  opacity: 0.5;
+}
+
+.imglateral1 {
+  display: "";
+  width: 25%;
+  top: 3rem;
+  opacity: 0.3;
+  display: none;
+}
+
+.puntosturquesa {
+  /*border: 2px solid red;*/
+  width: 5%;
+  top: 11rem;
+  right: 50px;
+  display: none;
+}
+
+/*.logos {
+  border: 2px solid red;
+  position: absolute;
+  margin: 0 auto;
+  top: 80%;
+  width: 80%;
+}*/
+
+.logostream {
+  top: 700px;
+  width: 80%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.puntosviolet {
+  /*position: relative;*/
+  width: 15%;
+  top: -82.5px;
+  left: 3em;
+}
+
+.streamlogosvertical {
+  width: 6vw;
+  top: 180px;
+  margin-left: 50px;
+}
+
+/*----- BASE DE FONDO DE PAGINA -----*/
+/*----- HEADER MENU -----*/
+
+.header {
+  /*background: rgb(19, 21, 66);
+  background: linear-gradient(
+    0deg,
+    rgba(19, 21, 66, 0) 0%,
+    rgba(19, 21, 66, 0.5590568991268383) 50%,
+    rgba(19, 21, 66, 1) 100%
+  );*/
+  /*border: 2px solid rgb(213, 194, 54);*/
+  background: rgb(19, 21, 66);
+  background: linear-gradient(
+    0deg,
+    rgba(19, 21, 66, 0) 0%,
+    rgba(19, 21, 66, 1) 90%
+  );
+  padding: 20px 0;
+  height: 20px;
+}
+
+.menuweb {
+  display: flex;
+  /*border: 2px solid rgb(44, 13, 221);*/
+  justify-content: right;
+}
+
+.logodelmenu {
+  position: absolute;
+  /*border: 2px solid rgb(79, 19, 135);*/
+  width: 15vw;
+  left: 50px;
+  z-index: 1;
+  display: flex;
+  top: 11px;
+}
+
+ul {
+  /*border: 2px solid rgb(149, 21, 89);*/
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: var(--textpage);
+}
+
+li {
+  display: flex;
+  /*border: 2px solid rgb(24, 125, 35);*/
+  flex: auto;
+  font-size: 1em;
+  border-right: 1px solid var(--fucsia2);
+  padding-right: 3rem;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+  display: flex;
+  /*border: 2px solid rgb(28, 220, 56);*/
+  text-decoration: none;
+  /*color: var(--turquesa);*/
+  color: var(--turquesa);
+  margin-left: 3rem;
+}
+
+a:hover {
+  /*color: var(--violeta);*/
+  opacity: 0.7;
+}
+
+/*----- HEADER MENU -----*/
+/*----- CONTENIDO PRINCIPAL -----*/
+
+h1,
+p {
+  display: block;
+}
+
+h1 {
+  /*border: 2px solid rgb(27, 120, 12);*/
+  font-family: var(--titlefont);
+  font-size: 40px;
+}
+
+p {
+  /*border: 2px solid rgb(149, 21, 89);*/
+  max-width: 950px;
+  font-size: 20px;
+  font-family: var(--textpage);
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo__1 {
+  color: var(--fucsia1);
+  margin-top: 12rem;
+  text-align: center;
+}
+
+.parrafo__1 {
+}
+
+.parrafo__1,
+.parrafo__2,
+.parrafo__3 {
+  margin-top: 3rem;
+}
+
+.titulo__2,
+.titulo__3 {
+  color: var(--fucsia1);
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.derecha-turquesa {
+  width: 15vw;
+  right: 0;
+}
+
+.izquierda-turquesa {
+  width: 15vw;
+  left: 0;
+}
+
+.logo-separator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.iconsdeco {
+  position: relative;
+  /*border: 1px solid brown;*/
+  width: 12em;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 20em;
+  /*display: none;*/
+}
+
+.container4 .footer .fondo-footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.container4 .footer .fondo-footer2 {
+  bottom: 100px;
+  display: none;
+}
+
+.boton1 {
+  display: block;
+  border: 1px solid yellow;
+  width: 110px;
+  margin-top: 3em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--turquesa);
+  font-family: var(--textpage);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: transparent;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: var(--violeta);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#boton1:hover {
+  background-color: var(--violeta);
+  color: var(--turquesa);
+  border-color: var(--violeta);
+}
+
+/*----- CONTENIDO PRINCIPAL -----*/
+/*----- AGREGAR SECCION -----*/
